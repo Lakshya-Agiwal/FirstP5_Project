@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>First P5.js Project</title>
+        <script src="script.js"></script>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+          <link rel="stylesheet" type="text/css" href="style.css">
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      </head background-image="data:image/jpeg;base64,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">
+      <body background="https://wallpaperaccess.com/full/3142803.jpg">
+      <center>
+        <style type="text/css">
+        
+        </style>
+      <h1 id="heading" style="font-family: 'Signika Negative', sans-serif; ; color-scheme: light black; letter-spacing: 2px;">First P5.js project</h1>
+  <hr style="border-top: 3px solid  black; width: 900px;" >
+  
+  <button onclick="snap()" id="but_1" style="background-image:linear-gradient(red,yellow); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" >Take Snapshot</button>
+      </body>
+  </center>
+</html>
